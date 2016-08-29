@@ -27,7 +27,7 @@ Please double check the paths in code before your run it.
 ######Step(2). Copy the folder ConAllcode/HandDetectioncode/py-faster-rcnn to your faster-rcnn installed path. Replace the file if it already exists.
 
 ######Step(3). Cd py-faster-rcnn, run ./tools/chalearn_con_rgb.py to detect hands in rgb videos, then run ./tools/chalearn_con_depth.py to detect hands in depth video. Each file you may change the root_path in _main_ function.
-(In ICT_NHCI_ContinuousGestureCode/ConAllcodes/HandDetectioncode/py-faster-rcnn/data/faster_rcnn_models path, trained caffe models do not exist, which can be loaded from http://pan.baidu.com/s/1gfocrfl )
+(In ICT_NHCI_ContinuousGestureCode/ConAllcodes/HandDetectioncode/py-faster-rcnn/data/faster_rcnn_models path, trained caffe models do not exist, which can be downloaded from http://pan.baidu.com/s/1gfocrfl )
 
 ######The detection results will be saved in the OriginalDetectionLabel folder which is in the same level folder as 'test'.
 
