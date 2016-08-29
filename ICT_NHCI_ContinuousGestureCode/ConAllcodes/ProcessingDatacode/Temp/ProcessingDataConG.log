@@ -1,0 +1,92 @@
+﻿生成启动时间为 2016/8/17 1:42:15。
+     1>项目“H:\ConGesture\ProcessingDataConG - version3\ProcessingDataConG\ProcessingDataConG.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         正在创建“H:\ConGesture\ProcessingDataConG - version3\\Temp\ProcessingDataConG.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"H:\ConGesture\ProcessingDataConG - version3\\Temp\\" /Fd"H:\ConGesture\ProcessingDataConG - version3\\Temp\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ProcessingDataConG.cpp
+         ProcessingDataConG.cpp
+     1>h:\congesture\processingdatacong - version3\include\opensource\opencv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : 参见“fopen”的声明
+     1>ProcessingDataConG.cpp(439): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(464): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(546): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(579): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(594): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(685): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(692): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(694): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(698): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(741): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(743): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(747): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(759): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(761): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(765): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(882): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(908): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(913): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(1107): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(1116): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(1208): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(1517): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(1537): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(1542): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(1574): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(1614): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(1534): warning C4101: “id”: 未引用的局部变量
+     1>ProcessingDataConG.cpp(1534): warning C4101: “frame”: 未引用的局部变量
+     1>ProcessingDataConG.cpp(1835): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(1848): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(1836): warning C4101: “tmp”: 未引用的局部变量
+     1>ProcessingDataConG.cpp(1939): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(1949): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(2389): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(2989): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(3077): warning C4018: “<”: 有符号/无符号不匹配
+     1>ProcessingDataConG.cpp(3150): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3151): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3166): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3167): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3183): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3184): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3199): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3200): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>ProcessingDataConG.cpp(3236): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(3241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(3253): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(311) : 参见“sscanf”的声明
+     1>ProcessingDataConG.cpp(3259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+     1>ProcessingDataConG.cpp(3237): warning C4101: “tmp”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ConGesture\ProcessingDataConG - version3\\Bin\ProcessingDataConG.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d248.lib opencv_contrib248.lib opencv_core248.lib opencv_features2d248.lib opencv_flann248.lib opencv_gpu248.lib opencv_highgui248.lib opencv_imgproc248.lib opencv_legacy248.lib opencv_ml248.lib opencv_objdetect248.lib opencv_ts248.lib opencv_video248.lib VIPL_SDK_FD_NODOG.lib /NODEFAULTLIB:"Nafxcw.lib Libcmt.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"H:\ConGesture\ProcessingDataConG - version3\\Bin\ProcessingDataConG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ConGesture\ProcessingDataConG - version3\\Bin\ProcessingDataConG.lib" /MACHINE:X86 /SAFESEH "H:\ConGesture\ProcessingDataConG - version3\\Temp\connexe.obj"
+         "H:\ConGesture\ProcessingDataConG - version3\\Temp\PreProcessGestureData.obj"
+         "H:\ConGesture\ProcessingDataConG - version3\\Temp\ProcessingDataConG.obj"
+         "H:\ConGesture\ProcessingDataConG - version3\\Temp\stdafx.obj"
+         正在生成代码
+     1>h:\congesture\processingdatacong - version3\processingdatacong\processingdatacong.cpp(1120): warning C4700: 使用了未初始化的局部变量“flag”
+         已完成代码的生成
+         ProcessingDataConG.vcxproj -> H:\ConGesture\ProcessingDataConG - version3\\Bin\ProcessingDataConG.exe
+       FinalizeBuildStatus:
+         正在删除文件“H:\ConGesture\ProcessingDataConG - version3\\Temp\ProcessingDataConG.unsuccessfulbuild”。
+         正在对“H:\ConGesture\ProcessingDataConG - version3\\Temp\ProcessingDataConG.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\ConGesture\ProcessingDataConG - version3\ProcessingDataConG\ProcessingDataConG.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.28
