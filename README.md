@@ -10,7 +10,7 @@ ConGD RGB_Depth_LSTM method: hand and face detection -> hog features and skeleto
 
 ## Notes
 
-This code was tested on Windows10 OS with VS2012 and Ubuntu 14.04 OS with Python 2.7, keras, faster-rcnn. 
+This code was tested on Windows10 OS with VS2012(opencv2.4.8) and Ubuntu 14.04 OS with Python 2.7, keras, faster-rcnn. 
 Please double check the paths in code before your run it.
 
 
@@ -27,6 +27,7 @@ Please double check the paths in code before your run it.
 ######Step(2). Copy the folder ConAllcode/HandDetectioncode/py-faster-rcnn to your faster-rcnn installed path. Replace the file if it already exists.
 
 ######Step(3). Cd py-faster-rcnn, run ./tools/chalearn_con_rgb.py to detect hands in rgb videos, then run ./tools/chalearn_con_depth.py to detect hands in depth video. Each file you may change the root_path in _main_ function.
+(In ICT_NHCI_ContinuousGestureCode/ConAllcodes/HandDetectioncode/py-faster-rcnn/data/faster_rcnn_models path, trained caffe models do not exist, which can be loaded from http://pan.baidu.com/s/1gfocrfl )
 
 ######The detection results will be saved in the OriginalDetectionLabel folder which is in the same level folder as 'test'.
 
@@ -47,6 +48,6 @@ Please double check the paths in code before your run it.
 
 ######Step(1) Install keras [https://keras.io/#installation].
 
-######Step(2) Copy the Depth and RGB hog feature files (with folder) to ConAllcode/ConG_RNN_LSTMcode/TestHogFeature/. Copy Depth and RGB face position txt file to IsoAllcode/ConG_RNN_LSTMcode/FacePosition/. Copy the output/ConGTestSegInfo to ConAllcode/ConG_RNN_LSTMcode/. (These files geted in Setp 2)
+######Step(2) Copy the Depth and RGB hog feature files (with folder) to ConAllcode/ConG_RNN_LSTMcode/TestHogFeature/. Copy Depth and RGB face position txt file to IsoAllcode/ConG_RNN_LSTMcode/FacePosition/. Copy the output/ConGTestSegInfo to ConAllcode/ConG_RNN_LSTMcode/. (These files can be geted from Setp 2)
 
 ######Step(3) Run RNN_LSTM_ContinuousG.py and generate a final submission file named ConGsubtmp.txt in ConAllcode/ConG_RNN_LSTMcode/
